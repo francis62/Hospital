@@ -1,0 +1,409 @@
+.navbar-brand.col-md-3.col-lg-2.pe-4.ps-4.me-0{
+    background-color: #ffffff;
+}
+
+.navbar-brand.col-md-3.col-lg-2.pe-4.ps-4.me-0 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-md-nowrap {
+    background-color: #c8d2e6;
+    /*background-color: #F1F6FF;*/
+}
+
+.logo{
+    max-width: 9rem !important;
+}
+
+.topnav{
+    margin-left: 3%;
+    position: relative;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 7px;
+    border: none;
+    font-size: 17px;
+    border-radius: 30px;
+  }
+
+.topnav i{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    height: 50px;
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;  
+    }
+}
+
+.navbar{
+    justify-content: start !important;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.topNavEnd{
+    width: 100%;
+    display: end;
+}
+
+.navbarText{
+    white-space: nowrap;
+    padding-left: 5%;
+}
+
+.notificationsIcon{
+    display: inline-flex !important;
+    color: black !important;
+}
+
+.searchBar:focus {
+    outline-color: #080c71 !important;
+}
+
+.dropdown{
+    width: 100%;
+    margin-right: 2%;
+}
+
+.dropdown-menu{
+    background-color: #fff !important;
+    /*background-color: #e9ecef !important;*/
+}
+
+.dropdown-item{
+    transition: 0.5s;
+    background-color: #fff !important;
+    /*background-color: #e9ecef !important;*/
+}
+
+.dropdown-item:hover{
+    color: #fff;
+    text-shadow: 3px 3px 6px grey;
+}
+
+.btn-primary{
+    font-weight: 490;
+    border-color: #080c71 !important;
+    background-color: #080c71 !important;
+    transition:color 1s linear !important;
+}
+
+.btn{
+    transition:color 1s linear !important;
+}
+
+.btn-primary:hover{
+    transition: 1s !important;
+    color: #000 !important;
+    border-color: #67dcff !important;
+    background-color: #67dcff !important;
+}
+
+.btn:hover{
+    transition: 1s !important;
+}
+
+.btn-primary{
+    border-radius: 35px !important;
+}
+
+.nav-item a{
+    color: black;
+}
+
+
+
+/*-----------------------STYLES FOR LIST PATIENTS---------------------*/
+.containerListPatients{
+    background-color: white !important;
+    width: 98% !important;
+    height: 93% !important;
+    border-radius: 30px;
+}
+
+.titleListPatients{
+    padding: 1rem;
+    padding-bottom: 0rem;   
+}
+
+/*----------------------------------------------------------------------*/
+
+
+
+/*-----------------------STYLES FOR ADD DOCTOR PAGE---------------------*/
+.containerAddDoctor{
+    background-color: white !important;
+    width: 98% !important;
+    height: 93% !important;
+    border-radius: 30px;
+}
+
+.containerAddDoctor input{
+    border-radius: 30px !important
+}
+
+.containerAddDoctor textarea{
+    border-radius: 30px !important
+}
+
+.containerAddDoctor select{
+    border-radius: 30px !important
+}
+
+
+.containerAddDoctor form{
+    padding: 3rem;
+    margin-top: 1rem;
+}
+/*----------------------------------------------------------------------*/
+
+
+
+/*-----------------------STYLES FOR EDIT DOCTOR PAGE---------------------*/
+.containerEditDoctor{
+    background-color: white !important;
+    width: 98% !important;
+    height: 93% !important;
+    border-radius: 30px;
+}
+/*----------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------STYLES FOR LIST DOCTOR PAGE---------------------*/
+.containerListDoctors{
+    background-color: white !important;
+    width: 98% !important;
+    height: 93% !important;
+    border-radius: 30px;
+}
+/*----------------------------------------------------------------------*/
+
+/*-----------------------STYLES FOR DOCTOR SEARCH PAGE---------------------*/
+.containerSearcher{
+    background-color: white !important;
+    width: 98% !important;
+    height: 93% !important;
+    border-radius: 30px;
+    margin-top: 1rem;
+}
+
+.containerSearcher h3{
+    padding: 3rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.containerSearcher form{
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.containerSearcher input{
+    border-radius: 30px !important;
+}
+/*----------------------------------------------------------------------*/
+
+/*-----------------------STYLES FOR VIEW PATIENT PAGE---------------------*/
+.containerViewPatient{
+    background-color: white !important;
+    width: 98% !important;
+    height: 93% !important;
+    border-radius: 30px;
+}
+/*----------------------------------------------------------------------*/
+
+/*-----------------------STYLES FOR ADD PATIENTS PAGE---------------------*/
+.formAddPatient{
+    margin-top: 1rem;
+}
+
+.form-control{
+    margin-bottom: 2rem !important;
+}
+
+.containerListPatients form{
+    padding: 3rem !important;
+    padding-top: 2rem !important;
+}
+
+.containerListPatients input{
+    border-radius: 30px !important;
+}
+
+.containerListPatients textarea{
+    border-radius: 30px !important
+}
+
+.containerListPatients select{
+    border-radius: 30px !important
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+/*-----------------------STYLES FOR PATIENTS SEARCH PAGE---------------------*/
+.firstTitle{
+    padding: 1rem;
+}
+
+.formSearcher{
+    padding: 1rem;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*-----------------------STYLES FOR PRINCIPAL PANEL OF DOCTOR---------------------*/
+
+.bottom{
+    background-color: #ffffff !important;
+    border-radius: 25px !important;
+    width: 86% !important;
+    height: 28rem;
+    margin-top: 6% !important;
+    padding: 2% !important  ;
+}
+
+
+.top{
+    border-radius: 20px !important;
+    width: 100% !important; 
+    margin-top: 1rem !important;
+}
+
+.docPresentation{
+    border-radius: 20px !important;
+    background-color: white;
+    width: 40rem;
+    height: 16rem;
+}
+
+.quickAccess{
+    width: 30rem;
+    border-radius: 20px !important;
+    background-color: white;
+}
+
+.quickAccessLinks{
+    text-decoration: none !important;
+    color: #0a58ca !important;
+}
+
+.quickAccessLinks:hover{
+    color: #000 !important;    
+}
+
+.logoutButton{
+    color: white;
+    text-decoration: none !important;
+    transition: 1s !important;
+}
+
+.logoutButton:hover{
+    transition: 1s !important;
+    color: #080c71;
+}
+
+.titleProfesional{
+    padding-left: 1rem;
+}
+
+.imageProfesional{
+    margin: 1rem;
+    width: 200px;
+    height: auto;
+}
+
+.titleAccess{
+    padding-left: 1rem;
+}
+
+.patientImage{
+    max-width: 20rem !important;
+}
+/*----------------------------------------------------------------------*/
+
+/*------------------ STYLES FOR MY INFORMATION USER --------------------*/
+.containerMyInformation{
+    /*background-color: white !important;*/
+    width: 98% !important;
+    height: 93% !important;
+    /*border-radius: 30px;*/
+    margin-top: 1rem;
+}
+
+.information:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.informationColumns{
+    border-radius: 30px;
+    padding: 10px;
+    height: 25rem;
+    margin: 3rem;
+}
+
+/*----------------------------------------------------------------------*/
+
+html, body {
+    padding: 0 !important; 
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important; 
+}
+
+/*
+body
+{
+padding:0px;
+margin:0px;
+width:100%;
+height:100%;
+}
+
+
+using this, replace your class "home" with your own
+
+(function ($) {
+    $(function(){"use strict";
+        $('.home').css({'height':($(window).height())+'px'});
+        $(window).resize(function(){
+        $('.home').css({'height':($(window).height())+'px'});
+        });
+    });
+  
+  })(jQuery);
+
+
+
+  Make sure you override the original styling by adding important.
+
+height: 100vh !important;
+*/
